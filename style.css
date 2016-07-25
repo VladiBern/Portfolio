@@ -1,0 +1,286 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #61AE56;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+  margin: 0;
+}
+
+.main-nav {
+ margin-top: 5px; 
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+  display: block;
+  padding: 10px 15px;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #61AE56;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+ padding-top: .5em;
+ padding-bottom: .5em;
+}
+
+.banner,
+.main-footer {
+  text-align: center;
+}
+
+.banner {
+	color: #fff;
+	background: url(img/zilant.png) no-repeat center;
+  padding: 3.2em 0;
+  margin-bottom: 60px;
+  height: 250px;
+}
+
+.col {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 890px;
+	/* height: 10%; */
+  
+}
+
+.headline {
+  margin-bottom: 10; 
+}
+
+
+ 
+
+@media (min-width: 321px) {
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.name,
+.col,
+.img {
+  float:left; 
+}
+
+.primary
+.secondary {
+  width: 50%; 
+}
+/***********************History**********************/
+
+.primary_history {
+	width: 100%;
+
+}
+
+.feat-img_history {
+	width: 450px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+/***********************Cousine**********************/
+.cousine_right-img {
+	width: 150px;
+	float: right;
+	margin-top: 5px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+
+.tertiary_cuisine {
+	width: 100%;
+}
+
+.cousine_left-img {
+	width: 150px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+.cousine_right-img {
+	width: 150px;
+	float: right;
+	margin-top: 5px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+/***********************Music**********************/
+
+.music {
+	width: 100%;
+}
+
+.music-img {
+	width: 200px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+
+}
+
+/***********************Language**********************/
+
+.language {
+	width: 100%;
+}
+
+.language-img {
+	width: 300px;
+	height: 500px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+/**********************Header*************************/
+
+.main-nav {
+  float: right; 
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.tagline {
+  font-size: 1.4em;
+}
+
+.banner {
+	color: #fff;
+	background: url(img/flag_grunge.jpg) no-repeat center;
+  padding: 3.2em 0;
+  margin-bottom: 60px;
+  margin-right: 0px;
+  height: 290px;
+}
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
+
+@media (min-width: 1025px) {
+
+.container {
+  width: 80%;
+  max-width: 1125px;
+}
+
+.primary {
+  width: 40%;
+}
+
+.secondary,
+.tertiary {
+    width:30%;
+
+}
+
+.banner {
+	color: #fff;
+	background: url(img/flag_grunge.jpg) no-repeat center;
+  padding: 3.2em 0;
+  margin-bottom: 60px;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 290px;
+  width: 100%;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
