@@ -1,3 +1,3 @@
-http://vladibern-tatars.github.io
+http://vladibern.github.io
 
 Tatar community in UK
